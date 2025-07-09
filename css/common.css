@@ -79,3 +79,23 @@ margin-bottom: 24px;
 
 /* task-2 */
 
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+  padding: 100px 156px;
+  max-width: 1440px;
+}
+
+.gallery>li {
+  flex: 0 0 360px;
+}
+
+.gallery-image {
+  display: block;
+  width: 360px;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* task-3 */
