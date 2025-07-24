@@ -40,6 +40,7 @@ button {
   background-color: #4e75ff;
   color: #fff;
   font-weight: 500;
+  border: none;
 }
 
 button:hover,
@@ -130,3 +131,29 @@ margin-bottom: 24px;
   color: #2e2f42;
 }
 
+/* task-4 */
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  padding: 24px;
+  gap: 8px;
+}
+
+.form-btn {
+  margin-top: 8px;
+}
+
+input {
+  width: 360px;
+  height: 40px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  margin-top: 8px;
+}
+
+label {
+  font-weight: 400;
+  font-size: 16px;
+}
