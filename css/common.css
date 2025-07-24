@@ -157,3 +157,30 @@ label {
   font-weight: 400;
   font-size: 16px;
 }
+
+/* task-5 */
+
+.widget {
+  margin: 100px 88px;
+  max-width: 169px;
+}
+
+.color {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.change-color {
+  padding: 8px 16px;
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  width: 148px;
+  height: 40px;
+  margin: 16px auto 0;
+}
